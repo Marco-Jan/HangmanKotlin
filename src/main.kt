@@ -19,7 +19,9 @@ fun main() {
                 println("Richtig!")
             } else {
                 println("Falsch!")
+                println(controller.attemptsLeft)
                 ui.drawHangman(controller.attemptsLeft)
+
             }
         }
 
